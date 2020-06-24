@@ -54,13 +54,7 @@ boolean isRotate=false;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 //        setSplashy();
-//bi= DataBindingUtil.setContentView(this,R.layout.activity_main);
-//bi.fabAdd.setOnClickListener(new View.OnClickListener() {
-//    @Override
-//    public void onClick(View v) {
-//        isRotate=ViewAnimation.rotateFab(v,!isRotate);
-//    }
-//});
+
         recyclerView = findViewById(R.id.recycler_comic);
         btn_filter_search= findViewById(R.id.imageview_search);
         btn_filter_search.setOnClickListener(new View.OnClickListener() {
